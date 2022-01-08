@@ -1,12 +1,12 @@
 # a2enmod
 
-> Enable an Apache module on Debian-based OSes.
-> More information: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
+> Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir.
+> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
 
-- Enable a module:
+- Bir modülü etkinleştir::
 
-`sudo a2enmod {{module}}`
+`sudo a2enmod {{modül}}`
 
-- Don't show informative messages:
+- Bilgilendirici mesajları gösterme:
 
-`sudo a2enmod --quiet {{module}}`
+`sudo a2enmod --quiet {{modül}}`

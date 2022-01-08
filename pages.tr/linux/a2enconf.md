@@ -1,12 +1,12 @@
 # a2enconf
 
-> Enable an Apache configuration file on Debian-based OSes.
-> More information: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+> Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir.
+> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
 
-- Enable a configuration file:
+- Bir konfigürasyon dosyasını etkinleştir:
 
-`sudo a2enconf {{configuration_file}}`
+`sudo a2enconf {{konfigürasyon_dosyası}}`
 
-- Don't show informative messages:
+- Bilgilendirici mesajları gösterme:
 
-`sudo a2enconf --quiet {{configuration_file}}`
+`sudo a2enconf --quiet {{konfigürasyon_dosyası}}`
